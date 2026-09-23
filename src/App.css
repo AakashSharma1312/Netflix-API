@@ -15,7 +15,6 @@ body {
   background: #141414;
 }
 
-/* Navbar */
 .navbar {
   position: fixed;
   top: 0;
@@ -54,7 +53,6 @@ body {
   font-weight: 600;
 }
 
-/* Hero */
 .hero {
   position: relative;
   height: 85vh;
@@ -134,7 +132,6 @@ body {
   background: rgba(109, 109, 110, 0.5);
 }
 
-/* Content / Movie Row */
 .content {
   position: relative;
   z-index: 3;
@@ -314,7 +311,6 @@ body {
   color: #d2d2d2;
 }
 
-/* Footer */
 .footer {
   text-align: center;
   padding: 24px;
@@ -322,7 +318,6 @@ body {
   font-size: 13px;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .hero-content h2 {
     font-size: 32px;

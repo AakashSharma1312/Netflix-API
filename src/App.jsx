@@ -1,13 +1,11 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 
-// 👉 Apna TMDB API key yahan daalo (https://www.themoviedb.org/settings/api se free milta hai)
-const TMDB_API_KEY = "YOUR_TMDB_API_KEY";
+const TMDB_API_KEY = "1f22d5c0e4891cf04797332501cdb51a";
 const TMDB_BASE = "https://api.themoviedb.org/3";
 const IMG_BASE = "https://image.tmdb.org/t/p/w500";
 const BACKDROP_BASE = "https://image.tmdb.org/t/p/original";
 
-// Featured movies list
 const MOVIE_TITLES = ["Ramayana", "Dhurandhar", "KGF", "RRR", "Animal"];
 
 function MovieCard({ movie, onSelect }) {
@@ -102,7 +100,6 @@ export default function App() {
 
   return (
     <div className="app">
-      {/* Navbar */}
       <header className="navbar">
         <h1 className="logo">MovieFlix</h1>
         <nav>
@@ -113,7 +110,6 @@ export default function App() {
         </nav>
       </header>
 
-      {/* Hero Section */}
       {heroMovie && (
         <section
           className="hero"
@@ -140,7 +136,6 @@ export default function App() {
         </section>
       )}
 
-      {/* Movies Row */}
       <main className="content">
         <h2 className="row-title">Trending Now</h2>
 
